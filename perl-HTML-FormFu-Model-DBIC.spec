@@ -20,6 +20,7 @@ BuildRequires: perl(HTML::FormFu)
 BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(Regexp::Copy)
 BuildRequires: perl(Task::Weaken)
+BuildRequires: perl(YAML::Syck)
 BuildRequires: perl(boolean)
 
 BuildArch: noarch
