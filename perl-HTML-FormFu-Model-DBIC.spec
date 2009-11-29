@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/HTML/%{upstream_name}-%{upstre
 
 BuildRequires: perl(DBD::SQLite)
 BuildRequires: perl(DBIx::Class)
+BuildRequires: perl(Class::Factory::Util)
 BuildRequires: perl(DateTime::Format::SQLite)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(HTML::FormFu)
