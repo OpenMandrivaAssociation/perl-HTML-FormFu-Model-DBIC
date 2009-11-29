@@ -20,6 +20,7 @@ BuildRequires: perl(HTML::FormFu)
 BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(Regexp::Copy)
 BuildRequires: perl(Task::Weaken)
+BuildRequires: perl(boolean)
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
