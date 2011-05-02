@@ -1,9 +1,9 @@
 %define upstream_name    HTML-FormFu-Model-DBIC
-%define upstream_version 0.08002
+%define upstream_version 0.09000
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Integrate HTML::FormFu with DBIx::Class
 License:    GPL+ or Artistic
