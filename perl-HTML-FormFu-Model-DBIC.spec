@@ -1,5 +1,5 @@
 %define upstream_name    HTML-FormFu-Model-DBIC
-%define upstream_version 0.09000
+%define upstream_version 0.09002
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
