@@ -2,14 +2,14 @@
 %define upstream_version 0.09010
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.09010
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Integrate HTML::FormFu with DBIx::Class
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-FormFu-Model-DBIC-0.09010.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-FormFu-Model-DBIC-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(DBD::SQLite)
